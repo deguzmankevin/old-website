@@ -1,0 +1,204 @@
+html { 
+  height: 100%;
+}
+body {
+  background-color: black;
+  position:relative;
+  height: 100%;
+}
+#HOME{padding-top:50px;height:100%;color: #fff; background-color: cornflowerblue;}
+#ABOUT {padding-top:10px;height:100%;color: #fff; background-color: deepskyblue;}
+#PROJECTS {padding-top:50px;height:128%;color: #fff; background-color: black;}
+#CONTACT {padding-top:50px;height:100%;color: #fff; background-color: darkviolet; }
+#ME {
+  width: 300px;
+  height:450px;
+  float:left;
+  margin-left: 200px;
+}
+#status {
+  margin-top: 1%;
+  text-align: center;
+}
+a {
+  color: white;
+}
+.paragraph{
+  color: white;
+  display:inline-block;
+  width:20%;
+}
+#ABOUT h1{
+  color: white;
+}
+#p1{
+  margin-right:10%;
+  font-size: 15px;
+  border: white solid 5px;
+  margin-top: 5%;
+  vertical-align: top;
+}
+#p2{
+  margin-left:10%;
+   font-size: 15px;
+  border: white solid 5px;
+  margin-top: 5%;
+  vertical-align: top;
+}
+#animate{
+  width: 30%; 
+  height: 65%;
+  display: inline-block;
+ margin-top: auto;
+  border: white solid 5px;
+}
+#intro{
+  display:inline-block;
+}
+#PROJECTS h3 {
+  text-align: center;
+  margin-top: 600px;
+}
+#HOME, #ABOUT, #PROJECTS, #CONTACT {
+  text-align: center;
+  font-family: Raleway;
+}
+#ICONS {
+  margin-top: 1%;
+/*  margin-left: 42.5%;*/
+}
+#arrows {
+  position:fixed;
+  bottom: 4%;
+  right: 4%;
+}
+#arrows .fa-sort-up{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+#arrows .fa-sort-down{
+  position: absolute;
+  top: 10%;
+  left: 1%;
+}
+#navigate .fa-home{
+position: fixed;
+bottom: 4%;
+  right: 1%;
+}
+#OFF {
+  position:fixed;
+  bottom: 3.5%;
+  right: 6%;
+}
+#navigate{
+  position: absolute;
+  bottom: 1%;
+  right: 1%;
+}
+#HOME .container-fluid {
+  margin-top: 12.5%;
+  
+}
+#HOME a{
+  text-decoration: none;
+}
+
+
+.clear{
+  clear: both;
+}
+
+#PROJECTS h1,p {
+  margin-top: 1%;
+}
+
+.carousel-inner > .item > img {
+  width: 900px;
+  height: 450px;
+  margin: 0 auto;
+  margin-top: 5%
+}
+#CONTACT p{
+  margin-top: 1%;
+}
+
+#CONTACT a p{
+  color: aliceblue;
+  font-weight: 900;
+  margin-top: 30%;
+}
+#student {
+  font-size: 50px;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: rotate(-7deg);
+/*  transform: rotate(7deg);*/
+}
+#music {
+  font-size: 50px;
+  position:absolute;
+  top: 10%;
+  left: 80%;
+  transform: rotate(-16deg);
+}
+#developer {
+  font-size: 50px;
+  position:absolute;
+  top: 50%;
+  left: 80%;
+  transform: rotate(16deg);
+}
+#love {
+  font-size: 35px;
+  position:absolute;
+  bottom: 1%;
+  left: 50%;
+}
+#thinker {
+  font-size: 40px;
+  position:absolute;
+  top: 70%;
+  left: 10%;
+  transform: rotate(-16deg);
+}
+#chef{
+  font-size: 50px;
+  position:absolute;
+  top: 10%;
+  left: 47.5%;
+}
+#adventure {
+  font-size: 50px;
+  position:absolute;
+  top: 5%;
+  left: 5%;
+}
+#dreamer {
+  font-size: 40px;
+  position:absolute;
+  top: 65%;
+  left: 60%;
+}
+#mission{
+  font-size: 50px;
+  position:absolute;
+  top: 65%;
+  right: 60%;
+  transform:rotate(45deg);
+}
+#mentor{
+  font-size: 40px;
+  position:absolute;
+  top: 45%;
+  left: 5%;
+  transform:rotate(30deg);
+}
+.random{
+  color: cornflowerblue;
+  font-family: Lobster;
+  text-decoration: none;
+}
